@@ -4,7 +4,10 @@ let useraddress;
 
 window.onload = async function() {
     if ( window.location.href.split('/').pop() == "CheckTokens.html"){
-        window.alert("CheckTokensPage");
+        //window.alert("CheckTokensPage");
+        await newTorus();
+        myurl = "https://blockscout.com/poa/xdai/address/" + useraddress[0]+"/tokens" ;
+        window.window.location.href = myurl ;
     }
 } 
 
