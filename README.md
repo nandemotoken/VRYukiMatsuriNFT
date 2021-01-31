@@ -3,5 +3,5 @@
 Registration  
 https://nandemotoken.github.io/VRYukiMatsuriNFT/Registration.html
 
-CheckNFT
+CheckNFT  
 https://nandemotoken.github.io/VRYukiMatsuriNFT/CheckTokens.html
