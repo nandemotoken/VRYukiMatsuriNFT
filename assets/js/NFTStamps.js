@@ -9,6 +9,9 @@ async function enableLink( _num ){
     console.log(useraddress[0]);
 //    let fromblockchain1 = await mycontract.methods.balanceOf(useraddress[0]).call();
     let fromblockchain1 = await mycontract.methods.tokenOfOwnerByIndex(useraddress[0] , 0).call();
+    if (fromblockchain1==0){
+        return;
+    }
     console.log(fromblockchain1);
 //    tmp = 2;
     document.getElementById('image'+_num).style.opacity = "100%";
