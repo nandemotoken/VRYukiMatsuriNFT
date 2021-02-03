@@ -15,7 +15,7 @@ window.onload = async function() {
         await newTorus();
         enableLink( 0 );
         enableLink( 1 );
-
+        enableLink( 2 );
     }
     
     
