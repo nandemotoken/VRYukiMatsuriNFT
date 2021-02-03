@@ -1,5 +1,5 @@
 //左から0,1,2,3,4,5。0はテスト用
-nftaddressArray = [ "0x47a66daf612f69361852c28c8508e6f3a0ce533d" , "0xcd8a958d91e2aa450db293b7e2b7180c0a5101b1" , "" , "", "", "" ]
+nftaddressArray = [ "0x47a66daf612f69361852c28c8508e6f3a0ce533d" , "0x4e8b9C567B5C5bbdCEdD0397F29876ddBB54b973" , "" , "", "", "" ]
 
 
 //画像左から1,2,3,4,5。0はテスト用のサンプルトークン
