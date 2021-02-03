@@ -14,6 +14,8 @@ window.onload = async function() {
         //window.alert("CheckTokensPage");
         await newTorus();
         enableLink( 0 );
+        enableLink( 1 );
+
     }
     
     
