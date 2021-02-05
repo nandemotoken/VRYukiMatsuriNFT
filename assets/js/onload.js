@@ -13,6 +13,7 @@ window.onload = async function() {
     if ( window.location.href.split('/').pop() == "CheckTokens2.html"){
         //window.alert("CheckTokensPage");
         await newTorus();
+        try {enableLink( 3 );} catch (e) { console.log(e)}
         try {enableLink( 2 );} catch (e) { console.log(e)}
         try {enableLink( 0 );} catch (e) { console.log(e)}
         try {enableLink( 1 );} catch (e) { console.log(e)}
