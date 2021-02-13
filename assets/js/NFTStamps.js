@@ -12,12 +12,13 @@ async function enableLink( _num ){
     if (fromblockchain0==0){
     console.log("bug check2")
         return;
-    }
+    } else {
 
     let fromblockchain1 = await mycontract.methods.tokenOfOwnerByIndex(useraddress[0] , 0).call();
     console.log(fromblockchain1);
 //    tmp = 2;
     document.getElementById('image'+_num).style.opacity = "100%";
     document.getElementById('link'+_num).href = `https://blockscout.com/poa/xdai/tokens/${nftaddressArray[_num]}/instance/${fromblockchain1}/token-transfers`
-}
+    }
+    }
 
