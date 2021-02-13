@@ -8,6 +8,7 @@ async function enableLink( _num ){
     mycontract = await new web3rpc.eth.Contract(abi, nftaddressArray[_num]);
     console.log(useraddress[0]);
     let fromblockchain0 = await mycontract.methods.balanceOf(useraddress[0]).call();
+    console.log("bug check")
     if (fromblockchain0==0){
         return;
     }
