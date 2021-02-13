@@ -10,6 +10,7 @@ async function enableLink( _num ){
     let fromblockchain0 = await mycontract.methods.balanceOf(useraddress[0]).call();
     console.log("bug check")
     if (fromblockchain0==0){
+    console.log("bug check2")
         return;
     }
 
