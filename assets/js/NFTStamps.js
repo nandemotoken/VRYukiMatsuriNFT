@@ -11,7 +11,7 @@ async function enableLink( _num ){
     console.log("bug check")
     if (fromblockchain0==0){
     console.log("bug check2")
-        return;
+        throw new Error('I Have No Token.'+ _num );
     } else {
 
     let fromblockchain1 = await mycontract.methods.tokenOfOwnerByIndex(useraddress[0] , 0).call();
