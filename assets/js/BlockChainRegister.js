@@ -58,3 +58,17 @@ async function registrationCAST(){
     myurl = "https://yukimatsuriaddresscollector.onrender.com/?address=" + useraddress[0] + "CAST";
     window.window.location.href = myurl ;
 }
+
+async function registrationKURAGE(){
+//    window.alert("ok")
+    await newTorus();
+    myurl = "https://yukimatsuriaddresscollector.onrender.com/?address=" + useraddress[0] + "KURAGE";
+    window.window.location.href = myurl ;
+}
+
+async function registrationLIVE(){
+//    window.alert("ok")
+    await newTorus();
+    myurl = "https://yukimatsuriaddresscollector.onrender.com/?address=" + useraddress[0] + "LIVE";
+    window.window.location.href = myurl ;
+}
