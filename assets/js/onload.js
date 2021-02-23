@@ -15,7 +15,7 @@ window.onload = async function() {
         await newTorus();
         try {await enableLink( 3 );} catch (e) { console.log(e)}
         try {await enableLink( 2 );} catch (e) { console.log(e)}
-        try {await enableLink( 0 );} catch (e) { console.log(e)}
+        try {await enableLink( 7 );} catch (e) { console.log(e)}
         try {await enableLink( 1 );} catch (e) { console.log(e)}
         try {await enableLink( 8 );} catch (e) { console.log(e)}
         try {await enableLink( 6 );} catch (e) { console.log(e)}
@@ -24,6 +24,9 @@ window.onload = async function() {
         try {await enableLink( 9 );} catch (e) { console.log(e)}
         try {await enableLink( 10 );} catch (e) { console.log(e)}
         try {await enableLink( 11 );} catch (e) { console.log(e)}
+        try {await enableLink( 12 );} catch (e) { console.log(e)}
+        try {await enableLink( 13 );} catch (e) { console.log(e)}
+        try {await enableLink( 14 );} catch (e) { console.log(e)}
 
         console.log("loading token ok")
     }

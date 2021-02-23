@@ -72,3 +72,32 @@ async function registrationLIVE(){
     myurl = "https://yukimatsuriaddresscollector.onrender.com/?address=" + useraddress[0] + "LIVE";
     window.window.location.href = myurl ;
 }
+
+async function registrationXR(){
+//    window.alert("ok")
+    await newTorus();
+    myurl = "https://yukimatsuriaddresscollector.onrender.com/?address=" + useraddress[0] + "XRXR";
+    window.window.location.href = myurl ;
+}
+
+async function registrationVSOSEI(){
+//    window.alert("ok")
+    await newTorus();
+    myurl = "https://yukimatsuriaddresscollector.onrender.com/?address=" + useraddress[0] + "VSOSEI";
+    window.window.location.href = myurl ;
+}
+
+async function registrationCINDERE(){
+//    window.alert("ok")
+    await newTorus();
+    myurl = "https://yukimatsuriaddresscollector.onrender.com/?address=" + useraddress[0] + "CINDERE";
+    window.window.location.href = myurl ;
+}
+
+async function registrationFINALE(){
+//    window.alert("ok")
+    await newTorus();
+    myurl = "https://yukimatsuriaddresscollector.onrender.com/?address=" + useraddress[0] + "FINALE";
+    window.window.location.href = myurl ;
+}
+
