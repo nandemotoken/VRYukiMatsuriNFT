@@ -27,6 +27,7 @@ window.onload = async function() {
         try {await enableLink( 12 );} catch (e) { console.log(e)}
         try {await enableLink( 13 );} catch (e) { console.log(e)}
         try {await enableLink( 14 );} catch (e) { console.log(e)}
+        try {await enableLink( 15 );} catch (e) { console.log(e)}
 
         console.log("loading token ok")
     }

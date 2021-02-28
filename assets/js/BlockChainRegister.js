@@ -101,3 +101,11 @@ async function registrationFINALE(){
     window.window.location.href = myurl ;
 }
 
+
+async function registrationSONGS(){
+//    window.alert("ok")
+    await newTorus();
+    myurl = "https://yukimatsuriaddresscollector.onrender.com/?address=" + useraddress[0] + "SONGS";
+    window.window.location.href = myurl ;
+}
+
